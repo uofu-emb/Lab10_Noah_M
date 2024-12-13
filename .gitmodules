@@ -13,3 +13,6 @@
 [submodule "lib/unity"]
 	path = lib/unity
 	url = https://github.com/ThrowTheSwitch/Unity.git
+[submodule "lib/pico_extras"]
+	path = lib/pico_extras
+	url = https://github.com/raspberrypi/pico-extras
