@@ -30,7 +30,7 @@ jobs:
         # We'll use this as our working directory for all subsequent commands
         working-directory: ${{github.workspace}}
         run: |
-          ls /usr/local/share/
+          ls /usr/local/share/pico
           cmake -E make_directory ${{github.workspace}}/build
 
       - name: Configure CMake
