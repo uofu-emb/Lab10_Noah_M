@@ -1,3 +1,6 @@
+# Lab 10 Power - Noah Mecham
+
+## Current measurements for each scenario
 blink_with_sleep_ms.c 17.6 - 18.5 mA
 blink_with_thread.c 20.4 - 21.4 mA
 busy_loop.c 21.45 mA
