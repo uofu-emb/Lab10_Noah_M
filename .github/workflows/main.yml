@@ -48,7 +48,6 @@ jobs:
         shell: bash
         # Execute the build.  You can specify a specific target with "--target <NAME>"
         run: |
-          ls ./lib/
           cmake --build ./build --config $BUILD_TYPE --parallel $(nproc)
 
       # - name: Test

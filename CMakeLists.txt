@@ -70,7 +70,7 @@ add_compile_definitions(
 # This is where your project header files are located.
 include_directories(${CMAKE_CURRENT_LIST_DIR}/include)
 # file(GLOB_RECURSE INCLUDE_FILES "lib/pico_extras/src/rp2_common/**/*.h")
-include_directories(${CMAKE_CURRENT_LIST_DIR}/lib/pico_extras/src/rp2_common)
+include_directories(${PICO_EX_PATH}/src/rp2_common)
 # include_directories(${CMAKE_CURRENT_LIST_DIR}/lib/pico_extras/src/rp2_common/pico_audio_
 # include_directories(${INCLUDE_FILES})
 
