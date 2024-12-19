@@ -1,10 +1,9 @@
-# Renode setup
-The Raspberry Pico needs configuration files for Renode to work properly.
+# Lab 10 Power - Noah Mecham
 
-* On MacOS, the installation location is `/Applications/Renode.app/Contents/MacOs`
-* On Linux, the location for Debian, Fedora, and Arch is `/opt/renode`
-* On Windows, the location is `C://Program Files/Renode`
-
-To add the Pico configuration files:
-1. Copy `rp2040_spinlock.py` and `rp2040_divider.py` to the `scripts/pydev` directory of your Renode installation.
-1. Copy `rpi_pico_rp2040_w.repl` to the `platforms/cpus` directory.
+## Current measurements for each scenario
+blink_with_sleep_ms.c 17.6 - 18.5 mA <br>
+blink_with_thread.c 20.4 - 21.4 mA <br>
+busy_loop.c 21.45 mA <br>
+interrupt_toggle.c 17.5 - 18.7 mA <br>
+hello_sleep_alarm.c 17.3 mA <br>
+hello_dormant_gpio.c 1.8 mA when dormant, 18.5 mA when not <br>
